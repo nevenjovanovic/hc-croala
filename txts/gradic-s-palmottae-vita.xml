@@ -49,6 +49,17 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+      <refsDecl xml:base="http://croala.ffzg.unizg.hr/opera/urn:cts:croala" xml:id="gradic-s-palmottae-vita.xml" ana="croala:cts">
+        <cRefPattern matchPattern="titulus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:head[@n='?']">
+          <p>This pattern references head of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="auctor" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:docAuthor[@n='?']">
+          <p>This pattern references docAuthor of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="paragraphus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:p[@n='?']">
+          <p>This pattern references p of the text in CTS.</p>
+        </cRefPattern>
+      </refsDecl>
       <tagsDecl>
         <namespace name="http://www.tei-c.org/ns/1.0">
           <tagUsage gi="abstract" occurs="1"/>

@@ -38,6 +38,11 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
+      <refsDecl xml:base="http://croala.ffzg.unizg.hr/opera/urn:cts:croala" xml:id="kunic-r-hor-paraphrasis.xml" ana="croala:cts">
+        <cRefPattern matchPattern="versus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='?']">
+          <p>This pattern references l of the text in CTS.</p>
+        </cRefPattern>
+      </refsDecl>
          <!-- CTS for a single poem in document -->
          <refsDecl n="CTS">
             <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])" n="line">

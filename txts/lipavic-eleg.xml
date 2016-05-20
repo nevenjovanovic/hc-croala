@@ -42,6 +42,17 @@
          </sourceDesc>
         </fileDesc>
         <encodingDesc>
+      <refsDecl xml:base="http://croala.ffzg.unizg.hr/opera/urn:cts:croala" xml:id="lipavic-eleg.xml" ana="croala:cts">
+        <cRefPattern matchPattern="titulus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:head[@n='?']">
+          <p>This pattern references head of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="versus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='?']">
+          <p>This pattern references l of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="explicit" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:closer[@n='?']">
+          <p>This pattern references closer of the text in CTS.</p>
+        </cRefPattern>
+      </refsDecl>
             <!-- CTS for a single poem in document -->
             <refsDecl n="CTS">
                 <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])" n="line">

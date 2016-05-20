@@ -38,6 +38,20 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
+      <refsDecl xml:base="http://croala.ffzg.unizg.hr/opera/urn:cts:croala" xml:id="bulic-f-epist.xml" ana="croala:cts">
+        <cRefPattern matchPattern="incipit" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:opener[@n='?']">
+          <p>This pattern references opener of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="paragraphus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:p[@n='?']">
+          <p>This pattern references p of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="salutatio" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:salute[@n='?']">
+          <p>This pattern references salute of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="inscriptio" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:byline[@n='?']">
+          <p>This pattern references byline of the text in CTS.</p>
+        </cRefPattern>
+      </refsDecl>
       <tagsDecl>
         <namespace name="http://www.tei-c.org/ns/1.0">
           <tagUsage gi="abbr" occurs="2"/>

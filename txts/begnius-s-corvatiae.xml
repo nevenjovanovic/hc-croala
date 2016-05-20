@@ -69,6 +69,14 @@
          </textClass>
       </profileDesc>
       <encodingDesc>
+      <refsDecl xml:base="http://croala.ffzg.unizg.hr/opera/urn:cts:croala" xml:id="begnius-s-corvatiae.xml" ana="croala:cts">
+        <cRefPattern matchPattern="titulus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:head[@n='?']">
+          <p>This pattern references head of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="paragraphus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:p[@n='?']">
+          <p>This pattern references p of the text in CTS.</p>
+        </cRefPattern>
+      </refsDecl>
          <editorialDecl>
             <p>Pisanje velikih slova i interpunkcijskih znakova usklađeno je s današnjim uzusom, a pokrate su razriješene bez zagrada; uvedena je podjela na obrojčane paragrafe. </p>
             <interpretation>

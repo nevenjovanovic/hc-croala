@@ -49,6 +49,23 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+      <refsDecl xml:base="http://croala.ffzg.unizg.hr/opera/urn:cts:croala" xml:id="andreis-f-const.xml" ana="croala:cts">
+        <cRefPattern matchPattern="titulus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:head[@n='?']">
+          <p>This pattern references head of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="paragraphus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:p[@n='?']">
+          <p>This pattern references p of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="citatio" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:quote[@n='?']">
+          <p>This pattern references quote of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="signatum" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:signed[@n='?']">
+          <p>This pattern references signed of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="nota" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:note[@n='?']">
+          <p>This pattern references note of the text in CTS.</p>
+        </cRefPattern>
+      </refsDecl>
       <tagsDecl>
         <namespace name="http://www.tei-c.org/ns/1.0">
           <tagUsage gi="abbr" occurs="47"/>

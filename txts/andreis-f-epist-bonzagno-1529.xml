@@ -43,6 +43,20 @@
          </sourceDesc>
         </fileDesc>
         <encodingDesc>
+      <refsDecl xml:base="http://croala.ffzg.unizg.hr/opera/urn:cts:croala" xml:id="andreis-f-epist-bonzagno-1529.xml" ana="croala:cts">
+        <cRefPattern matchPattern="incipit" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:opener[@n='?']">
+          <p>This pattern references opener of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="paragraphus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:p[@n='?']">
+          <p>This pattern references p of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="explicit" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:closer[@n='?']">
+          <p>This pattern references closer of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="postscriptum" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:postscript[@n='?']">
+          <p>This pattern references postscript of the text in CTS.</p>
+        </cRefPattern>
+      </refsDecl>
             <!-- CTS for a single letter in document -->
             <!-- what about opener, closer, postscript? experimental solution here -->
             <refsDecl n="CTS">

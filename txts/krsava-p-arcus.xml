@@ -38,6 +38,11 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+      <refsDecl xml:base="http://croala.ffzg.unizg.hr/opera/urn:cts:croala" xml:id="krsava-p-arcus.xml" ana="croala:cts">
+        <cRefPattern matchPattern="paragraphus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:p[@n='?']">
+          <p>This pattern references p of the text in CTS.</p>
+        </cRefPattern>
+      </refsDecl>
       <tagsDecl>
         <namespace name="http://www.tei-c.org/ns/1.0">
           <tagUsage gi="abstract" occurs="1"/>

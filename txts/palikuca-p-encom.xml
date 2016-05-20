@@ -43,6 +43,14 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
+      <refsDecl xml:base="http://croala.ffzg.unizg.hr/opera/urn:cts:croala" xml:id="palikuca-p-encom.xml" ana="croala:cts">
+        <cRefPattern matchPattern="titulus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:head[@n='?']">
+          <p>This pattern references head of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="versus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='?']">
+          <p>This pattern references l of the text in CTS.</p>
+        </cRefPattern>
+      </refsDecl>
       <tagsDecl>
         <namespace name="http://www.tei-c.org/ns/1.0">
           <tagUsage gi="abstract" occurs="1"/>

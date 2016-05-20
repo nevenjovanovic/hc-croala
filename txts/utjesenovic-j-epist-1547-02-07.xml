@@ -50,6 +50,23 @@
          </sourceDesc>
         </fileDesc>
     <encodingDesc>
+      <refsDecl xml:base="http://croala.ffzg.unizg.hr/opera/urn:cts:croala" xml:id="utjesenovic-j-epist-1547-02-07.xml" ana="croala:cts">
+        <cRefPattern matchPattern="titulus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:head[@n='?']">
+          <p>This pattern references head of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="nota" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:note[@n='?']">
+          <p>This pattern references note of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="incipit" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:opener[@n='?']">
+          <p>This pattern references opener of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="paragraphus" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:p[@n='?']">
+          <p>This pattern references p of the text in CTS.</p>
+        </cRefPattern>
+        <cRefPattern matchPattern="explicit" replacementPattern="/tei:TEI/tei:text/tei:body/tei:div/tei:closer[@n='?']">
+          <p>This pattern references closer of the text in CTS.</p>
+        </cRefPattern>
+      </refsDecl>
       <tagsDecl>
         <namespace name="http://www.tei-c.org/ns/1.0">
           <tagUsage gi="abbr" occurs="1"/>
