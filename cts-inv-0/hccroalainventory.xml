@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory
+  tiid="hccroala"
+  tiversion="6.0"
+  xmlns="http://chs.harvard.edu/xmlns/cts"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <ctsnamespace
+    abbr="croala"
+    ns="http://croala.ffzg.unizg.hr/hccroala/textus">
+    <description
+      xml:lang="eng"> A selection of Croatian Latin with CTS identifiers. </description>
+  </ctsnamespace>
+  <textgroup 
+    urn="urn:cts:greekLit:tlg0363:">
+    <groupname
+      xml:lang="eng">Claudius Ptolemy</groupname>
+    <work
+      urn="urn:cts:greekLit:tlg0363.tlg009:"
+      xml:lang="grc">
+      <title
+        xml:lang="eng">Geography</title>
+      <edition
+        urn="urn:cts:greekLit:tlg0363.tlg009.hc01:">
+        <label
+          xml:lang="eng">Smith</label>
+        <description xml:lang="eng">Electronic edition created by Neel Smith</description>
+        <online/>
+     </edition>
+    </work>
+  </textgroup>
+  
+  
+
+
+</TextInventory>
