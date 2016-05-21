@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="hccroala-inventory.xml" uri="../cts-inv-0/TextInventory.rnc"/>
+  <uri resource="hccroala-citation.xml" uri="../cts-inv-0/CitationConfiguration.rnc"/>
+</locatingRules>
