@@ -150,6 +150,7 @@
     <citationMapping>
       <citation label="titulus" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:head[@n='?']" xpath="/tei:head[@n='?']"/>
       <citation label="stropha" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:lg[@n='?']" xpath="/tei:lg[@n='?']"/>
+      <citation label="versus" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:lg[@n='?']/tei:l[@n='?']" xpath="/tei:lg[@n='?']/tei:l[@n='?']"/>
       <citation label="explicit" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:closer[@n='?']" xpath="/tei:closer[@n='?']"/>
     </citationMapping>
   </online>
@@ -645,6 +646,7 @@
     <citationMapping>
       <citation label="nota" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:note[@n='?']" xpath="/tei:note[@n='?']"/>
       <citation label="stropha" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:lg[@n='?']" xpath="/tei:lg[@n='?']"/>
+      <citation label="versus" scope="/tei:TEI/tei:text/tei:body/tei:div/tei:lg[@n='?']/tei:l[@n='?']" xpath="/tei:lg[@n='?']/tei:l[@n='?']"/>
     </citationMapping>
   </online>
   <online type="xml" urn="urn:cts:croala:frankapan-b.epist-1525-02-15.croala-op:" docname="frankapan-b-epist-1525-02-15.xml">
