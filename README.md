@@ -18,12 +18,12 @@ Download the files or clone the repository.
 
 ### Download the files
 
-* From this repository on Github: go to [Releases](https://github.com/nevenjovanovic/croatiae-auctores-latini-textus/releases) and select the most recent one
+* From this repository on Github: go to [Releases](/releases) and select the most recent one
 
 ### Use Git
 
 * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) (if you don't have it already)
-* Go to the [croatiae-auctores-latini-textus](https://github.com/nevenjovanovic/croatiae-auctores-latini-textus) Github repository
+* Go to the [hc-croala](https://github.com/nevenjovanovic/hc-croala) Github repository
 * Replicate the data on your computer with [git clone](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 
 
