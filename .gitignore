@@ -2,3 +2,5 @@
 .hgignore
 *.xml~
 *.md~
+xq/cts-catalog/ctstxt-list.xq
+
